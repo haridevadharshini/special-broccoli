@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login into HoloCompare Commerce</title>
+    <title>Login Page</title>
     <style>
         /* Modern styling for the form */
         body {
@@ -93,7 +93,7 @@
         <input type="password" id="password" name="password" required>
 
         <button type="button" id="loginButton">Login</button>
-        <a href="first.html">Go to Home Page</a>
+        <a href="home.html">Go to Home Page</a>
     </form>
 
     <script>
@@ -102,9 +102,10 @@
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
 
+            // Simulate login validation
             if (username && password) {
                 // Redirect to the home page
-                window.location.href = 'first.html';
+                window.location.href = 'home.html';
             } else {
                 alert('Please enter both username and password.');
             }
