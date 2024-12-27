@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #3a3a3a;
+    color: white;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+#search {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5a5a5a;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #707070;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.price {
+    font-size: 1.1em;
+    color: #e74c3c; /* Vibrant red for price */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.size, .delivery {
+    font-size: 0.9em;
+    color: #777; /* Softer gray for additional information */
+    margin: 5px 0;
+}
+
+.competitor-prices {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #555; /* Darker gray for competitor prices */
+}
+
+.competitor-prices li {
+    margin: 5px 0;
+}
+
+.competitor-prices a {
+    color: #3498db; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.competitor-prices a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #3a3a3a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
